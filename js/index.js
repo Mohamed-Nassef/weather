@@ -1,7 +1,7 @@
 // weather api
 let key = "37436105387e4b1ba31115517241106";
-let Base_URL = "http://api.weatherapi.com/v1";
-let url = `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=London&&days=3`;
+let Base_URL = "https://api.weatherapi.com/v1";
+//let url = `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=London&&days=3`;
 const weekday = [
   "Sunday",
   "Monday",
