@@ -152,6 +152,9 @@ p {
   text-align: center;
   font-weight: 400;
 }
+.forecast-container .forecast:nth-child(even) {
+  background-color: #262936;
+}
 #current {
   text-align: left;
   padding-top: 30px;
@@ -245,24 +248,12 @@ sup {
   }
 }
 @media only screen and (max-width: 992px) {
-  /* ========== margin in samll page for avout section  =========  */
-  .about_width {
-    margin-top: 50px;
+  .forecast-container .forecast {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* ========== title in home page  =========  */
-  .contant .title {
-    font-size: 1.875rem;
-  }
-  /* ========== margin in samll page for avout section  =========  */
-  .about_width {
-    margin-top: 50px;
-  }
-}
-/* ==== site max container width 1170 (similar socrce style )====  */
-@media only screen and (min-width: 1400px) {
-  .container {
-    width: 1170px;
+  .forecast-container .forecast {
+    width: 100%;
   }
 }
